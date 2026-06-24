@@ -1,7 +1,7 @@
 const DEFAULT_API_BASE = "https://marketplace-system-lf78.onrender.com";
 const DEFAULT_DEALER_SLUG = "integrity-motors-llc";
 const DEFAULT_DEALER_KEY = "integrity-motors-llc-SakMTzizvAITyGJft3vEpJdZ";
-const DEFAULT_FACEBOOK_PROFILE_URL = "";
+const DEFAULT_FACEBOOK_PROFILE_URL = "https://www.facebook.com/marketplace/profile/100000770222167/";
 const AUTO_ALARM = "nuc-auto-enrich";
 const AUTO_INTERVAL_MINUTES = 30;
 
