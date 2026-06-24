@@ -457,10 +457,15 @@ function Index() {
         </div>
       </footer>
 
-      <div className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-background/95 p-3 shadow-lg backdrop-blur md:hidden">
+      <div className="fixed inset-x-0 bottom-0 z-50 grid grid-cols-2 gap-2 border-t border-border bg-background/95 p-3 shadow-lg backdrop-blur md:hidden">
         <Button asChild className="h-11">
           <a href={generalSmsHref}><MessageSquare className="mr-2 h-4 w-4" />Text Us</a>
         </Button>
+        {dealerPhone && (
+          <Button asChild variant="outline" className="h-11">
+            <a href={`tel:${dealerPhone}`}><Phone className="mr-2 h-4 w-4" />Call Us</a>
+          </Button>
+        )}
       </div>
     </div>
   );
